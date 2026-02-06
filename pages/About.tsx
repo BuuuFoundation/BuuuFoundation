@@ -44,7 +44,7 @@ const About: React.FC = () => {
             <div className="w-full lg:w-2/5 relative">
               <div className="aspect-square bg-rose-50 rounded-full absolute -top-10 -right-10 w-64 h-64 -z-10 animate-pulse"></div>
               <img
-                src="https:images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop"
+                src="images/Team/team_collaborating.jpg"
                 alt="Our team collaborating"
                 className="w-full aspect-[4/5] object-cover rounded-[3rem] shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
               />
