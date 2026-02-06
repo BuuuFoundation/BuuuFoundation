@@ -11,8 +11,7 @@ Buuu Foundation works towards supporting:
 
 The website is built to share our mission, activities, and provide transparent ways to contact and support our work.
 
-## Tech Stack
-- React
-- Vite
-- Tailwind CSS
-- Hosted using GitHub Pages
+
+## Contact
+For any queries, reach out to us at:
+📧 contact@buuufoundation.org
