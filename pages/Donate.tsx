@@ -109,7 +109,7 @@ const Donate: React.FC = () => {
           </p>
 
           <p className="mt-4 text-sm text-slate-500">
-            📩 Reach us at <span className="font-medium">thebuuufoundation@gmail.com</span>
+            📩 Reach us at <span className="font-medium">contact@buuufoundation.org</span>
           </p>
         </div>
 
