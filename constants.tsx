@@ -5,7 +5,7 @@ import { TeamMember, Activity, SupportArea } from './types';
 
 export const NGO_NAME = "Buuu Foundation";
 export const NGO_TAGLINE = "Empowering lives, one act of kindness at a time.";
-export const LOGO_URL = "/images/BuuuFoundation_logo.png";
+export const LOGO_URL = "images/BuuuFoundation_logo.png";
 
 export const SOCIAL_LINKS = {
   phone: "+91 63792 75847",
@@ -200,7 +200,7 @@ export const SUPPORT_AREAS: SupportArea[] = [
     description:
       "We provide need-based support to registered ashrams and old age homes by assisting with essential supplies, nutrition, and basic infrastructure requirements, based on on-ground needs.",
     icon: <Heart className="w-8 h-8 text-rose-500" />,
-    image: "/images/08.jpg",
+    image: "images/08.jpg",
     requirements: [
       "Brief details about the ashram or home",
       "The type of support required",
@@ -213,7 +213,7 @@ export const SUPPORT_AREAS: SupportArea[] = [
     description:
       "We support animal welfare initiatives by assisting with medical care, rescue efforts, and feeding programs for street animals and shelters. Support is provided based on urgency and the availability of funds.",
     icon: <Dog className="w-8 h-8 text-amber-500" />,
-    image: "/images/07.jpeg",
+    image: "images/07.jpeg",
     requirements: [
       "Details of the animal or animals requiring support",
       "Location and urgency of the situation",
@@ -225,7 +225,7 @@ export const SUPPORT_AREAS: SupportArea[] = [
     description:
       "We provide financial assistance for critical medical needs, including surgeries, medicines, and diagnostic tests, for individuals who require support. Each request is carefully reviewed on a case-by-case basis to ensure help reaches those who need it most.",
     icon: <Stethoscope className="w-8 h-8 text-blue-500" />,
-    image: "/images/09.jpg",
+    image: "images/09.jpg",
     requirements: [
       "A medical summary or prescription from a hospital or doctor",
       "Estimated treatment costs or details of the required medical care",
@@ -237,7 +237,7 @@ export const SUPPORT_AREAS: SupportArea[] = [
     description:
       "We support students from marginalized backgrounds by helping cover essential educational expenses such as tuition fees, textbooks, uniforms, and basic learning materials. Our aim is to ensure that financial constraints do not interrupt a child’s education.",
     icon: <GraduationCap className="w-8 h-8 text-emerald-500" />,
-    image: "/images/10.jpg",
+    image: "images/10.jpg",
     requirements: [
       "Student details, such as a bonafide certificate or school ID",
       "Information about the required support (school fees, books, uniforms, etc.)",
@@ -252,7 +252,7 @@ export const TEAM: TeamMember[] = [
   {
     name: "Jayavarshini Thirumalai",
     role: "Founder | Director",
-    image: "/images/Team/Jayavarshini.png",
+    image: "images/Team/Jayavarshini.png",
     bio: "Visionary leader combining IT expertise with childhood dreams of social reform.",
     instagram: "https://www.instagram.com/jaya_varshini14/",
     linkedin: "https://www.linkedin.com/in/jayavarshini-thirumalai-23b2a616b/"
@@ -260,7 +260,7 @@ export const TEAM: TeamMember[] = [
   {
     name: "Prabudevan Raja",
     role: "Director",
-    image: "/images/Team/Prabudevan.jpeg",
+    image: "images/Team/Prabudevan.jpeg",
     bio: "Overseeing operations and legal compliance with dedicated focus.",
     instagram: "https://www.instagram.com/talkng__tom/",
     linkedin: "https://www.linkedin.com/in/prabu-devan-b87b26259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -268,7 +268,7 @@ export const TEAM: TeamMember[] = [
   {
     name: "Shivavarsha Subramani",
     role: "Co-Founder | Volunteer",
-    image: "/images/Team/Shivavarsha.jpg",
+    image: "images/Team/Shivavarsha.jpg",
     bio: "Leading ground-level initiatives and fostering community relationships.",
     instagram: "https://www.instagram.com/_shiveyy_/",
     linkedin: "https://www.linkedin.com/in/shivavarsha/"
@@ -276,7 +276,7 @@ export const TEAM: TeamMember[] = [
   {
     name: "Mathangi Sankaranarayanan",
     role: "Co-Founder",
-    image: "/images/Team/Mathangi.jpeg",
+    image: "images/Team/Mathangi.jpeg",
     bio: "Harnessing innovation and strategy to scale our social impact.",
     instagram: "https://www.instagram.com/mathangi_97/",
     linkedin: "https://www.linkedin.com/in/mathangi-s-/"
@@ -298,7 +298,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Monthly General Expense Support",
     category: "Animal Welfare",
     description: "Contributed towards the monthly general expenses to support the welfare of animals at Bark India Charitable Trust.",
-    images: ["/images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_Jan_2026.jpeg"],
+    images: ["images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_Jan_2026.jpeg"],
     date: "January, 2026",
     fundsProvided: "3,000 INR",
     location: "Bark India Charitable Trust"
@@ -310,11 +310,11 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "In November 2025, we had the joy of visiting the ashram again, this time accompanied by our families, team members, and volunteers. Staying true to our tradition, we prepared a wholesome home-cooked lunch and served it with love. The day was filled with laughter, shared stories, and the warmth of togetherness, reinforcing our bond with the residents.",
     images: [
-      "/images/Abode of Joy 2025/Photo_1.jpeg",
-      "/images/Abode of Joy 2025/Photo_2.jpeg",
-      "/images/Abode of Joy 2025/Photo_3.jpeg",
-      "/images/Abode of Joy 2025/Photo_4.jpeg",
-      "/images/Abode of Joy 2025/Photo_5.jpeg"
+      "images/Abode of Joy 2025/Photo_1.jpeg",
+      "images/Abode of Joy 2025/Photo_2.jpeg",
+      "images/Abode of Joy 2025/Photo_3.jpeg",
+      "images/Abode of Joy 2025/Photo_4.jpeg",
+      "images/Abode of Joy 2025/Photo_5.jpeg"
     ],
     date: "November, 2025",
     fundsProvided: "Personal Contribution",
@@ -327,11 +327,11 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We had the joy of visiting Ramalinga Adigalar Gurukulam, an orphanage home nurturing children from toddlers to teenagers. Through generous donations, we sponsored dinner for the children, making the evening truly special. During the visit, one of our team members personally connected with the children, sharing delightful moments of laughter and warmth. Bringing along homemade sweets and chocolates added an extra layer of happiness to the occasion.",
     images: [
-      "/images/Ramlinga_Adigalar_Gurukulam-2023/Photo_1.jpeg",
-      "/images/Ramlinga_Adigalar_Gurukulam-2023/Photo_2.jpeg",
-      "/images/Ramlinga_Adigalar_Gurukulam-2023/Photo_3.jpeg",
-      "/images/Ramlinga_Adigalar_Gurukulam-2023/Photo_4.jpeg",
-      "/images/Ramlinga_Adigalar_Gurukulam-2023/Photo_5.jpeg"
+      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_1.jpeg",
+      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_2.jpeg",
+      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_3.jpeg",
+      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_4.jpeg",
+      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_5.jpeg"
     ],
     date: "April, 2023",
     fundsProvided: "1,500 INR",
@@ -343,7 +343,7 @@ export const ACTIVITIES: Activity[] = [
     title: "School Accessories Support",
     category: "Education",
     description: "Buuu Foundation raised funds to help a student cover the expenses of their school accessories. We were able to raise the required funds and help the student with 3,750 INR. Thank you everyone for being a part of this kind action. Kindly keep supporting us in the upcoming fundraising activities too.",
-    images: ["/images/Children_Charitable_Trust/ChildrenCharitableTrust_March_2023.jpeg"],
+    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_March_2023.jpeg"],
     date: "March, 2023",
     fundsProvided: "3,750 INR",
     location: "Children Charitable Trust"
@@ -354,7 +354,7 @@ export const ACTIVITIES: Activity[] = [
     title: "GBS Treatment Support",
     category: "Medical",
     description: "Buuu Foundation has contributed to the Impact Guru Foundation for the medical expenses of an individual diagnosed with Guillain-Barré syndrome.",
-    images: ["/images/Medical/ImpactGuru_December_2023.jpeg "],
+    images: ["images/Medical/ImpactGuru_December_2023.jpeg "],
     date: "December, 2023",
     fundsProvided: "4,000 INR",
     location: "Impact Guru"
@@ -365,7 +365,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Heart Surgery Medical Support",
     category: "Medical",
     description: "Based on the funds raised in August 2023, we supported the critical medical expenses of an 8-year-old child undergoing heart surgery. We thank everyone for your kind support and contributions, and we hope to see your continued support in our upcoming activities.",
-    images: ["/images/Children_Charitable_Trust/ChildrenCharitableTrust_August_2023.jpeg"],
+    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_August_2023.jpeg"],
     date: "August, 2023",
     fundsProvided: "5,000 INR",
     location: "Children Charitable Trust"
@@ -376,7 +376,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Blood Cancer Support",
     category: "Medical",
     description: "Contributing toward medical expenses for a person fighting blood cancer through the Impact Guru platform.",
-    images: ["/images/Medical/ImpactGuru_June_2023.jpeg"],
+    images: ["images/Medical/ImpactGuru_June_2023.jpeg"],
     date: "June, 2023",
     fundsProvided: "6,000 INR",
     location: "Impact Guru"
@@ -387,7 +387,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Bone Marrow Transplant Support",
     category: "Medical",
     description: "Supporting medical expenses of an individual who needed a Bone Marrow Transplant for survival through the Ketto platform.",
-    images: ["/images/Medical/KettoPlatform_March_2023.jpg"],
+    images: ["images/Medical/KettoPlatform_March_2023.jpg"],
     date: "March, 2023",
     fundsProvided: "3,500 INR",
     location: "Ketto Platform"
@@ -399,14 +399,14 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We had the privilege of visiting Abode of Joy, an old-age home dedicated to providing a nurturing environment for its residents. Our team, along with a few enthusiastic volunteers, prepared and shared lunch meals, fostering a sense of community and connection. To further support their well-being, we arranged a physiotherapy session, led by our friend and professional physiotherapist, Suriya. The day was a testament to the warmth that small acts of kindness can bring, leaving both the residents and our team with cherished memories.",
     images: [
-      "/images/Abode_of_Joy-2022/Activity_Poster.jpg",
-      "/images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-1.jpeg",
-      "/images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-2.jpeg",
-      "/images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-3.jpeg",
-      "/images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-4.jpeg",
-      "/images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-5.jpeg",
-      "/images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-6.jpeg",
-      "/images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-7.jpeg"
+      "images/Abode_of_Joy-2022/Activity_Poster.jpg",
+      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-1.jpeg",
+      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-2.jpeg",
+      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-3.jpeg",
+      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-4.jpeg",
+      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-5.jpeg",
+      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-6.jpeg",
+      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-7.jpeg"
     ],
     date: "May, 2022",
     fundsProvided: "Crowdfunded Essentials",
@@ -419,11 +419,11 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We visited Don Bosco Care Home with our family, engaging with the children and sponsoring a special dinner. We contributed 3,500 INR in cash to support their needs, spending quality time sharing joy and smiles.",
     images: [
-      "/images/Don_Bosco_2022/Don_Bosco_2022.jpeg",
-      "/images/Don_Bosco_2022/Don_Bosco_2022_1.jpeg",
-      "/images/Don_Bosco_2022/Don_Bosco_2022_2.jpeg",
-      "/images/Don_Bosco_2022/Don_Bosco_2022_3.jpeg",
-      "/images/Don_Bosco_2022/Don_Bosco_2022_4.jpeg"
+      "images/Don_Bosco_2022/Don_Bosco_2022.jpeg",
+      "images/Don_Bosco_2022/Don_Bosco_2022_1.jpeg",
+      "images/Don_Bosco_2022/Don_Bosco_2022_2.jpeg",
+      "images/Don_Bosco_2022/Don_Bosco_2022_3.jpeg",
+      "images/Don_Bosco_2022/Don_Bosco_2022_4.jpeg"
     ],
     date: "May, 2022",
     fundsProvided: "3,500 INR",
@@ -435,7 +435,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Academic Year Support",
     category: "Education",
     description: "Providing financial assistance for school fees to break the cycle of poverty for children facing extreme hardship. We successfully covered the student’s Term III & Term IV tuition fee for the Academic year 2021-2022. We really appreciate every single one of you who donated to help with the student's tuition ❤️🤝",
-    images: ["/images/Education/Individual_Education_Support_02.jpeg"],
+    images: ["images/Education/Individual_Education_Support_02.jpeg"],
     date: "July, 2022",
     fundsProvided: "11,830 INR",
     location: "School Tuition Support"
@@ -446,7 +446,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Tuition Fees Support",
     category: "Education",
     description: "For the month of June’22, Buuu Foundation was able to provide financial support for a student’s education. We successfully contributed for the first term tuition fees of a student. We want to express our sincere gratitude to all our contributors for your generous donation. Your generosity gives these children the resources they need and opens doors for the next generation.",
-    images: ["/images/Children_Charitable_Trust/ChildrenCharitableTrust_June_2022.jpeg"],
+    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_June_2022.jpeg"],
     date: "June, 2022",
     fundsProvided: "10,000 INR",
     location: "Children Charitable Trust"
@@ -457,7 +457,7 @@ export const ACTIVITIES: Activity[] = [
     title: "School Fees Contribution",
     category: "Education",
     description: "Each contribution represents a step toward empowering future generations and breaking social barriers.",
-    images: ["/images/Education/Individual_Education_Support_03.jpeg"],
+    images: ["images/Education/Individual_Education_Support_03.jpeg"],
     date: "June, 2022",
     fundsProvided: "12,000 INR",
     location: "School Tuition Support"
@@ -468,7 +468,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Heart Surgery Support",
     category: "Medical",
     description: "With immense pleasure, we successfully contributed to the open-heart surgery of a 9-month-old baby at MGM Health Care Hospital, Chennai. Upon receiving the emergency request from The Children Charitable Trust, our team conducted immediate pre-verification checks and verified the situation in person on the day of surgery. Thanks to the overwhelming support from our global contributors, we raised the required funds in just 2-3 days. The surgery was successful, and the child is on the path to a full recovery.",
-    images: ["/images/Children_Charitable_Trust/ChildrenCharitableTrust_August_2022.png"],
+    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_August_2022.png"],
     date: "August, 2022",
     fundsProvided: "15,000 INR",
     location: "Children Charitable Trust"
@@ -480,9 +480,9 @@ export const ACTIVITIES: Activity[] = [
     category: "Animal Welfare",
     description: "Buuu Foundation was able to meet a part of the monthly medical requirement to sick animals in Bark India Charitable Trust.",
     images: [
-      "/images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022.jpeg",
-      "/images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_1.jpeg",
-      "/images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_2.jpeg"
+      "images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022.jpeg",
+      "images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_1.jpeg",
+      "images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_2.jpeg"
     ],
     date: "May, 2022",
     fundsProvided: "5,000 INR",

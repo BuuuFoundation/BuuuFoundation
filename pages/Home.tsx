@@ -17,7 +17,7 @@ const Home: React.FC = () => {
       <section className="relative h-[85vh] flex items-center justify-center overflow-hidden bg-slate-900">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/HomePage_background.jpg"
+            src="images/HomePage_background.jpg"
             alt="photo background"
             className="w-full h-full object-cover opacity-30 scale-80"
           />
@@ -110,10 +110,10 @@ const Home: React.FC = () => {
             <div className="w-full lg:w-1/2 relative">
               <div className="absolute -inset-10 bg-rose-100/50 rounded-full blur-3xl opacity-50 -z-10"></div>
               <div className="grid grid-cols-2 gap-4">
-                <img src="/images/01.jpg" alt="Impact 1" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover" />
-                <img src="/images/02.jpeg" alt="Impact 2" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover translate-y-8" />
-                <img src="/images/03.jpg" alt="Impact 3" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover -translate-y-8" />
-                <img src="/images/04.jpg" alt="Impact 4" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover" />
+                <img src="images/01.jpg" alt="Impact 1" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover" />
+                <img src="images/02.jpeg" alt="Impact 2" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover translate-y-8" />
+                <img src="images/03.jpg" alt="Impact 3" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover -translate-y-8" />
+                <img src="images/04.jpg" alt="Impact 4" className="rounded-[2rem] shadow-xl w-full aspect-square object-cover" />
               </div>
             </div>
           </div>
