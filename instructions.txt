@@ -1,0 +1,31 @@
+
+GUIDE TO HOSTING BUUU FOUNDATION WEBSITE FOR FREE
+
+1. DOMAIN PURCHASE (buuufoundation.com)
+- Go to Namecheap, GoDaddy, or Cloudflare.
+- Purchase "buuufoundation.com".
+- You will need to change the DNS settings later to point to GitHub.
+
+2. GITHUB PAGES SETUP
+- Create a GitHub account (if you don't have one).
+- Create a new repository named "buuufoundation.github.io".
+- Upload these files directly to the root of the repository.
+- IMPORTANT: Since this is a React app, GitHub Pages needs to know how to handle the "build".
+- Easiest Way for Beginners: Use the "HashRouter" (which I have already implemented in index.tsx) to ensure links don't break on refresh.
+
+3. FORMSPREE SETUP (FOR CONTACT FORM)
+- Go to https://formspree.io/
+- Create a free account.
+- Create a "New Form" and name it "Contact Form".
+- It will give you a "Unique ID" or an "Action URL" like: https://formspree.io/f/xbjnrvzy
+- Go to `pages/Contact.tsx` in this code and replace `https://formspree.io/f/your-id` with your actual URL.
+
+4. PAYMENT BUTTONS
+- Razorpay: Create a account -> Dashboard -> Payment Links -> Create Link. Paste that link in the button in `pages/Donate.tsx`.
+- PayPal: Create a "Donate" button in PayPal dashboard and get the URL.
+
+5. LINKING THE DOMAIN
+- In GitHub Repo Settings -> Pages -> Custom Domain: Enter "buuufoundation.com".
+- Go to your Domain Registrar (Namecheap/etc) and add CNAME or A records provided by GitHub documentation.
+
+Need more help? Feel free to ask more specific questions!
