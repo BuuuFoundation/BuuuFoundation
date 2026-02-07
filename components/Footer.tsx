@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
 
 
         <div className="border-t border-slate-800 pt-10 flex flex-col md:flex-row justify-between items-center text-[10px] text-slate-500 uppercase tracking-widest">
-          <p>© {new Date().getFullYear()} {NGO_NAME}. Section 8 Registered (May 7, 2021).</p>
+          <p>© {new Date().getFullYear()} {NGO_NAME}. Section 8 Registered (May 7, 2021). CIN: U85300TN2021NPL143341</p>
           <div className="flex space-x-8 mt-4 md:mt-0">
             <Link to="/privacy-policy" className="hover:text-slate-300">Privacy</Link>
             <Link to="/transparency" className="hover:text-slate-300">Transparency</Link>
