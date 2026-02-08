@@ -86,9 +86,8 @@ const Footer: React.FC = () => {
             <h5 className="text-white font-bold mb-4 uppercase tracking-widest text-xs">
               Tax Exemptions
             </h5>
-            <p>
-              Donations to <span className="text-slate-200 font-semibold">Buuu Foundation</span> are eligible for tax
-              exemptions under <span className="text-slate-200 font-semibold">Section 80G of the Income Tax Act</span>.
+            <p className="text-gray-400 text-sm">
+              Tax exemption details will be updated once applicable approvals are in place.
             </p>
           </div>
 
