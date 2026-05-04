@@ -87,7 +87,8 @@ const Footer: React.FC = () => {
               Tax Exemptions
             </h5>
             <p className="text-gray-400 text-sm">
-              Tax exemption details will be updated once applicable approvals are in place.
+              BUUU Foundation is a registered Section 8 NGO. We have received provisional registration under Section 12A of the Income Tax Act, 1961. 
+              Our application for Section 80G tax-exemption status is currently under process. Therefore, donations are not currently eligible for tax deductions until 80G certificatet is received.
             </p>
           </div>
 
