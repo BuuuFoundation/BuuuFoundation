@@ -284,7 +284,7 @@ export const TEAM: TeamMember[] = [
 ];
 
 export const VOLUNTEERS = [
-  "Sowmiya",
+  "Sheela Raju",
   "Imthiyaz Ahamed",
   "Mithun Kamath",
   "Gangadharan",
