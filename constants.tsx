@@ -293,12 +293,49 @@ export const VOLUNTEERS = [
 
 export const ACTIVITIES: Activity[] = [
   {
+    id: "Education_support_June2026",
+    initiativeId: "education",
+    title: "School Tuition Fee Support",
+    category: "Education",
+    description: "Buuu Foundation raised funds to support the education expenses covering fees, uniforms, ID card, and shoes for the academic year 2026-2027. \n Thank you everyone for being a part of this kind action. Please continue to support us in the upcoming fundraising activities too.",
+    images: ["images/Education/EducationSupport_June20206_1.jpeg", "images/Education/EducationSupport_June20206_2.jpeg", "images/Education/EducationSupport_June20206_3.jpeg"],
+    date: "June, 2026",
+    fundsProvided: "13,000 INR",
+    location: "St. Raphael's Girls Higher Secondary School, Mylapore"
+  },
+  {
+    id: "impact-health-May-2026",
+    initiativeId: "healthcare",
+    title: "Individual Treatment Support",
+    category: "Medical",
+    description: "Buuu Foundation has contributed to the Impact Guru Foundation for the medical expenses of an individual who suffers from severe seizures and required to undergo brain surgery which can cost aroun 15,00,000 INR. We contributed ₹5,000 through ImpactGuru on May 18, 2026. We sincerely thank each and every one of you for your kindness, trust, and continuous support.",
+    images: ["images/Medical/IndividualMedicalSupport_ImpactGuru_May2026.jpeg"],
+    date: "April-May, 2026",
+    fundsProvided: "5,000 INR",
+    location: "Impact Guru"
+  },
+  {
+    id: "impact-ramalinga-mar-apr2026",
+    initiativeId: "shelter",
+    title: "Ramalinga Adigalar Gurukulam",
+    category: "Ashram",
+    description: "We were able to raise around ₹6,000, and the groceries were purchased for ₹5911. On April 5, 2026, one of our director's family went to the ashram and provided the supplies. We have attached the receipt of the items purchased and the acknowledgment from the Ashram. Due to privacy reasons, we are unable to share photos taken with the children publicly. Thank you so much to everyone who contributed and supported us, it truly means a lot.",
+    images: [
+      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2026",
+      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2026_1"
+    ],
+    date: "March-April, 2026",
+    fundsProvided: "₹5,911 (Groceries)",
+    location: "Ramalinga Adigalar Gurukulam"
+  },
+
+  {
     id: "impact-bark-india-jan-2026",
     initiativeId: "shelter",
     title: "Monthly General Expense Support",
     category: "Animal Welfare",
     description: "Contributed towards the monthly general expenses to support the welfare of animals at Bark India Charitable Trust.",
-    images: ["images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_Jan_2026.jpeg"],
+    images: ["images/Animal_Welfare/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_Jan_2026.jpeg"],
     date: "January, 2026",
     fundsProvided: "3,000 INR",
     location: "Bark India Charitable Trust"
@@ -310,11 +347,11 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "In November 2025, we had the joy of visiting the ashram again, this time accompanied by our families, team members, and volunteers. Staying true to our tradition, we prepared a wholesome home-cooked lunch and served it with love. The day was filled with laughter, shared stories, and the warmth of togetherness, reinforcing our bond with the residents.",
     images: [
-      "images/Abode of Joy 2025/Photo_1.jpeg",
-      "images/Abode of Joy 2025/Photo_2.jpeg",
-      "images/Abode of Joy 2025/Photo_3.jpeg",
-      "images/Abode of Joy 2025/Photo_4.jpeg",
-      "images/Abode of Joy 2025/Photo_5.jpeg"
+      "images/Ashrams/Abode of Joy 2025/Photo_1.jpeg",
+      "images/Ashrams/Abode of Joy 2025/Photo_2.jpeg",
+      "images/Ashrams/Abode of Joy 2025/Photo_3.jpeg",
+      "images/Ashrams/Abode of Joy 2025/Photo_4.jpeg",
+      "images/Ashrams/Abode of Joy 2025/Photo_5.jpeg"
     ],
     date: "November, 2025",
     fundsProvided: "Personal Contribution",
@@ -327,9 +364,9 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We had the joy of visiting Ramalinga Adigalar Gurukulam, an orphanage home nurturing children from toddlers to teenagers. Through generous donations, we sponsored dinner for the children, making the evening truly special. During the visit, one of our team members personally connected with the children, sharing delightful moments of laughter and warmth. Bringing along homemade sweets and chocolates added an extra layer of happiness to the occasion.",
     images: [
-      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_3.jpeg",
-      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_4.jpeg",
-      "images/Ramlinga_Adigalar_Gurukulam-2023/Photo_5.jpeg"
+      "images/Ashrams/RamalingaAdigalarGurukulam/Photo_3.jpeg",
+      "images/Ashrams/RamalingaAdigalarGurukulam/Photo_4.jpeg",
+      "images/Ashrams/RamalingaAdigalarGurukulam/Photo_5.jpeg"
     ],
     date: "April, 2023",
     fundsProvided: "1,500 INR",
@@ -341,7 +378,7 @@ export const ACTIVITIES: Activity[] = [
     title: "School Accessories Support",
     category: "Education",
     description: "Buuu Foundation raised funds to help a student cover the expenses of their school accessories. We were able to raise the required funds and help the student with 3,750 INR. Thank you everyone for being a part of this kind action. Kindly keep supporting us in the upcoming fundraising activities too.",
-    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_March_2023.jpeg"],
+    images: ["images/Education/Children_Charitable_Trust/ChildrenCharitableTrust_March_2023.jpeg"],
     date: "March, 2023",
     fundsProvided: "3,750 INR",
     location: "Children Charitable Trust"
@@ -363,7 +400,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Heart Surgery Medical Support",
     category: "Medical",
     description: "Based on the funds raised in August 2023, we supported the critical medical expenses of an 8-year-old child undergoing heart surgery. We thank everyone for your kind support and contributions, and we hope to see your continued support in our upcoming activities.",
-    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_August_2023.jpeg"],
+    images: ["images/Medical/Children_Charitable_Trust/ChildrenCharitableTrust_August_2023.jpeg"],
     date: "August, 2023",
     fundsProvided: "5,000 INR",
     location: "Children Charitable Trust"
@@ -397,14 +434,14 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We had the privilege of visiting Abode of Joy, an old-age home dedicated to providing a nurturing environment for its residents. Our team, along with a few enthusiastic volunteers, prepared and shared lunch meals, fostering a sense of community and connection. To further support their well-being, we arranged a physiotherapy session, led by our friend and professional physiotherapist, Suriya. The day was a testament to the warmth that small acts of kindness can bring, leaving both the residents and our team with cherished memories.",
     images: [
-      "images/Abode_of_Joy-2022/Activity_Poster.jpg",
-      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-1.jpeg",
-      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-2.jpeg",
-      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-3.jpeg",
-      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-4.jpeg",
-      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-5.jpeg",
-      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-6.jpeg",
-      "images/Abode_of_Joy-2022/PhotosTakenAtTheAshram-7.jpeg"
+      "images/Ashrams/Abode_of_Joy-2022/Activity_Poster.jpg",
+      "images/Ashrams/Abode_of_Joy-2022/PhotosTakenAtTheAshram-1.jpeg",
+      "images/Ashrams/Abode_of_Joy-2022/PhotosTakenAtTheAshram-2.jpeg",
+      "images/Ashrams/Abode_of_Joy-2022/PhotosTakenAtTheAshram-3.jpeg",
+      "images/Ashrams/Abode_of_Joy-2022/PhotosTakenAtTheAshram-4.jpeg",
+      "images/Ashrams/Abode_of_Joy-2022/PhotosTakenAtTheAshram-5.jpeg",
+      "images/Ashrams/Abode_of_Joy-2022/PhotosTakenAtTheAshram-6.jpeg",
+      "images/Ashrams/Abode_of_Joy-2022/PhotosTakenAtTheAshram-7.jpeg"
     ],
     date: "May, 2022",
     fundsProvided: "Crowdfunded Essentials",
@@ -417,10 +454,10 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We visited Don Bosco Care Home with our family, engaging with the children and sponsoring a special dinner. We contributed 3,500 INR in cash to support their needs, spending quality time sharing joy and smiles.",
     images: [
-      "images/Don_Bosco_2022/Don_Bosco_2022.jpeg",
-      "images/Don_Bosco_2022/Don_Bosco_2022_1.jpeg",
-      "images/Don_Bosco_2022/Don_Bosco_2022_2.jpeg",
-      "images/Don_Bosco_2022/Don_Bosco_2022_3.jpeg",
+      "images/Ashrams/Don_Bosco_2022/Don_Bosco_2022.jpeg",
+      "images/Ashrams/Don_Bosco_2022/Don_Bosco_2022_1.jpeg",
+      "images/Ashrams/Don_Bosco_2022/Don_Bosco_2022_2.jpeg",
+      "images/Ashrams/Don_Bosco_2022/Don_Bosco_2022_3.jpeg",
       "images/Don_Bosco_2022/Don_Bosco_2022_4.jpeg"
     ],
     date: "May, 2022",
@@ -444,7 +481,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Tuition Fees Support",
     category: "Education",
     description: "For the month of June’22, Buuu Foundation was able to provide financial support for a student’s education. We successfully contributed for the first term tuition fees of a student. We want to express our sincere gratitude to all our contributors for your generous donation. Your generosity gives these children the resources they need and opens doors for the next generation.",
-    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_June_2022.jpeg"],
+    images: ["images/Education/Children_Charitable_Trust/ChildrenCharitableTrust_June_2022.jpeg"],
     date: "June, 2022",
     fundsProvided: "10,000 INR",
     location: "Children Charitable Trust"
@@ -466,7 +503,7 @@ export const ACTIVITIES: Activity[] = [
     title: "Heart Surgery Support",
     category: "Medical",
     description: "With immense pleasure, we successfully contributed to the open-heart surgery of a 9-month-old baby at MGM Health Care Hospital, Chennai. Upon receiving the emergency request from The Children Charitable Trust, our team conducted immediate pre-verification checks and verified the situation in person on the day of surgery. Thanks to the overwhelming support from our global contributors, we raised the required funds in just 2-3 days. The surgery was successful, and the child is on the path to a full recovery.",
-    images: ["images/Children_Charitable_Trust/ChildrenCharitableTrust_August_2022.png"],
+    images: ["images/Medical/Children_Charitable_Trust/ChildrenCharitableTrust_August_2022.png"],
     date: "August, 2022",
     fundsProvided: "15,000 INR",
     location: "Children Charitable Trust"
@@ -478,9 +515,9 @@ export const ACTIVITIES: Activity[] = [
     category: "Animal Welfare",
     description: "Buuu Foundation was able to meet a part of the monthly medical requirement to sick animals in Bark India Charitable Trust.",
     images: [
-      "images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022.jpeg",
-      "images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_1.jpeg",
-      "images/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_2.jpeg"
+      "images/Animal_Welfare/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022.jpeg",
+      "images/Animal_Welfare/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_1.jpeg",
+      "images/Animal_Welfare/Bark_India_Charitable_Trust/Bark_India_Charitable_Trust_May_2022_2.jpeg"
     ],
     date: "May, 2022",
     fundsProvided: "5,000 INR",
