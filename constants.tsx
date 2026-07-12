@@ -321,8 +321,8 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We were able to raise around ₹6,000, and the groceries were purchased for ₹5911. On April 5, 2026, one of our director's family went to the ashram and provided the supplies. We have attached the receipt of the items purchased and the acknowledgment from the Ashram. Due to privacy reasons, we are unable to share photos taken with the children publicly. Thank you so much to everyone who contributed and supported us, it truly means a lot.",
     images: [
-      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2026",
-      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2026_1"
+      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2026.jpeg",
+      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2026_1.jpeg"
     ],
     date: "March-April, 2026",
     fundsProvided: "₹5,911 (Groceries)",
