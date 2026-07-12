@@ -364,9 +364,9 @@ export const ACTIVITIES: Activity[] = [
     category: "Ashram",
     description: "We had the joy of visiting Ramalinga Adigalar Gurukulam, an orphanage home nurturing children from toddlers to teenagers. Through generous donations, we sponsored dinner for the children, making the evening truly special. During the visit, one of our team members personally connected with the children, sharing delightful moments of laughter and warmth. Bringing along homemade sweets and chocolates added an extra layer of happiness to the occasion.",
     images: [
-      "images/Ashrams/RamalingaAdigalarGurukulam/Photo_3.jpeg",
-      "images/Ashrams/RamalingaAdigalarGurukulam/Photo_4.jpeg",
-      "images/Ashrams/RamalingaAdigalarGurukulam/Photo_5.jpeg"
+      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2023_1.jpeg",
+      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2023_2.jpeg",
+      "images/Ashrams/RamalingaAdigalarGurukulam/RamalingAdigalarGurukulam_April2023_3.jpeg"
     ],
     date: "April, 2023",
     fundsProvided: "1,500 INR",
