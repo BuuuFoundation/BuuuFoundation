@@ -47,7 +47,10 @@ const Transparency: React.FC = () => {
                                 <li>Support provided across different initiatives</li>
                             </ul>
                             <p className="mt-4">
-                                Donation receipts can be issued upon request.
+                                As our 80G tax-exemption approval is still pending, we are currently unable to issue
+                                formal donation receipts. Contributions are still tracked internally, and donors
+                                wishing to be included in our records for future tax-filing purposes may share their
+                                PAN details with us.
                             </p>
                         </section>
 

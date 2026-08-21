@@ -109,7 +109,7 @@ export const FAQ_DATA = [
       },
       {
         q: "Will I receive a receipt for my donation?",
-        a: "Yes. Donation receipts can be provided upon request. These receipts acknowledge the contribution made to Buuu Foundation. Tax exemption details will be included once 80G approval is in place."
+        a: "Not at this time. Since our 80G tax-exemption approval is still pending, we are currently unable to issue formal donation receipts. If you would like your contribution included in our records for future tax-filing purposes, you're welcome to share your PAN details with us at contact@buuufoundation.org."
       },
       {
         q: "Are donations refundable?",
@@ -117,7 +117,7 @@ export const FAQ_DATA = [
       },
       {
         q: "How can I donate to Buuu Foundation?",
-        a: "Currently, donations can be made via direct bank transfer. Donation details are available on our website. For any clarification, donors are welcome to contact us directly."
+        a: "You can donate online instantly via UPI, Credit/Debit Card, Net Banking, or Wallets using our secure Razorpay payment option, or through a direct bank transfer. Both options, along with full details, are available on our Donate page."
       },
       {
         q: "Can I choose how my donation is used?",
