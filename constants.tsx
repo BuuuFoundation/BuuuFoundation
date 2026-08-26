@@ -274,6 +274,14 @@ export const TEAM: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/shivavarsha/"
   },
   {
+    name: "Sheela Raju",
+    role: "Programs and Outreach | Volunteer",
+    image: "/images/Team/Sheela.jpg",
+    bio: "Coordinating outreach, fundraising campaigns, and day-to-day operations to keep the foundation running smoothly.",
+    instagram: "https://www.instagram.com/sheela_raju11/",
+    linkedin: "https://www.linkedin.com/in/sheela-raj/"
+  },
+  {
     name: "Mathangi Sankaranarayanan",
     role: "Co-Founder",
     image: "images/Team/Mathangi.jpeg",
@@ -284,10 +292,10 @@ export const TEAM: TeamMember[] = [
 ];
 
 export const VOLUNTEERS = [
-  "Sheela Raju",
   "Imthiyaz Ahamed",
   "Mithun Kamath",
   "Gangadharan",
+  "Aravind Sekar",
   "Srivarshath"
 ];
 
