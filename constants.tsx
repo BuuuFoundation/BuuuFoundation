@@ -276,7 +276,7 @@ export const TEAM: TeamMember[] = [
   {
     name: "Sheela Raju",
     role: "Programs and Outreach | Volunteer",
-    image: "/images/Team/Sheela.jpg",
+    image: "/images/Team/Sheela.jpeg",
     bio: "Coordinating outreach, fundraising campaigns, and day-to-day operations to keep the foundation running smoothly.",
     instagram: "https://www.instagram.com/sheela_raju11/",
     linkedin: "https://www.linkedin.com/in/sheela-raj/"
