@@ -306,7 +306,11 @@ export const ACTIVITIES: Activity[] = [
     title: "Education Support",
     category: "Education",
     description: "BUUU Foundation conducted an education support fundraiser to assist a Class 2 student studying at M.CT.M. Chidambaram Chettyar School with her school fees.\n\nThe student's family approached us seeking financial assistance towards her education. As part of our internal verification process, the family provided a copy of the student's school ID, a Bonafide Certificate issued by the school, and an ID proof of the student's mother.\n\nThe total school fee for one term was ₹17,300.\n\nOn September 11, 2026, BUUU Foundation paid the complete fee amount of ₹17,300 directly from the Foundation's bank account to the school's bank account.\n\nFollowing the payment, an email was sent to the school informing them about the transaction. The school subsequently acknowledged the email and confirmed receipt of the payment.\n\nWe sincerely thank everyone who contributed towards this initiative. Your support enabled us to assist another student with her education and successfully complete this activity.\n\nTo protect the privacy of the student and her family, personal information and identification documents collected during the verification process are maintained only for the Foundation's internal records and are not published publicly.",
-    images: [],
+    images: [
+      "images/Education/September_2026/1. Fee-payment_Transaction.jpeg",
+      "images/Education/September_2026/2. Payment_receipt.jpeg",
+      "images/Education/September_2026/3. School_Bonafide.jpeg"
+    ],
     date: "September, 2026",
     fundsProvided: "17,300 INR",
     location: "M.CT.M. Chidambaram Chettyar School, Mylapore"
