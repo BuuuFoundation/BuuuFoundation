@@ -45,7 +45,7 @@ export const INITIATIVES = [
     icon: <BookOpen className="w-6 h-6" />,
     quote: '"Knowledge is the ultimate wealth that can uplift society and build a stronger nation." – Dr. A.P.J. Abdul Kalam',
     description: "We believe education is the key to breaking the cycle of poverty and creating a brighter future for underprivileged children. Our initiatives span from pre-school education (ages 3-6) to formal schooling (ages 6-18), ensuring holistic development and equitable opportunities.",
-    extendedInfo: "We provide financial assistance for tuition fees, sponsoring either a term or an academic year, depending on the funds raised. This support is extended to children facing extreme poverty, living in slums, being disaster-stricken, or managing rare disabilities. All sponsorships are verified through authentic documentation, such as bonafide certificates from schools. Together, with your support, we aim to nurture dreams and empower young minds to rise above their circumstances.",
+    extendedInfo: "We provide financial assistance for tuition fees, sponsoring either a term or an academic year, depending on the funds raised. This support is extended to children facing extreme poverty, living in slums, being disaster-stricken, or managing rare disabilities. In exceptional circumstances, we have also supported college fees. All sponsorships are verified through authentic documentation, such as bonafide certificates from schools. Together, with your support, we aim to nurture dreams and empower young minds to rise above their circumstances.",
     impactDescription: "Celebrate the joy of learning with us as we share our recent contributions to education. By sponsoring tuition fees for students with a difficult situation, we’ve helped open the doors to opportunity and knowledge. Each success story represents a step toward breaking the cycle of poverty and empowering future generations."
   },
   {
@@ -300,6 +300,17 @@ export const VOLUNTEERS = [
 ];
 
 export const ACTIVITIES: Activity[] = [
+  {
+    id: "Education_support_Sept2026",
+    initiativeId: "education",
+    title: "Education Support",
+    category: "Education",
+    description: "BUUU Foundation conducted an education support fundraiser to assist a Class 2 student studying at M.CT.M. Chidambaram Chettyar School with her school fees.\n\nThe student's family approached us seeking financial assistance towards her education. As part of our internal verification process, the family provided a copy of the student's school ID, a Bonafide Certificate issued by the school, and an ID proof of the student's mother.\n\nThe total school fee for one term was ₹17,300.\n\nOn September 11, 2026, BUUU Foundation paid the complete fee amount of ₹17,300 directly from the Foundation's bank account to the school's bank account.\n\nFollowing the payment, an email was sent to the school informing them about the transaction. The school subsequently acknowledged the email and confirmed receipt of the payment.\n\nWe sincerely thank everyone who contributed towards this initiative. Your support enabled us to assist another student with her education and successfully complete this activity.\n\nTo protect the privacy of the student and her family, personal information and identification documents collected during the verification process are maintained only for the Foundation's internal records and are not published publicly.",
+    images: [],
+    date: "September, 2026",
+    fundsProvided: "17,300 INR",
+    location: "M.CT.M. Chidambaram Chettyar School, Mylapore"
+  },
   {
     id: "Education_support_June2026",
     initiativeId: "education",

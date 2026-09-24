@@ -46,11 +46,17 @@ const ActivityDetailsModal: React.FC<{
       >
         {/* Left: Image Carousel */}
         <div className="w-full md:w-3/5 h-[40vh] md:h-auto bg-slate-900 relative group">
-          <img
-            src={activity.images[currentImageIndex]}
-            alt={`Gallery ${currentImageIndex + 1}`}
-            className="w-full h-full object-contain bg-black/50"
-          />
+          {activity.images.length > 0 ? (
+            <img
+              src={activity.images[currentImageIndex]}
+              alt={`Gallery ${currentImageIndex + 1}`}
+              className="w-full h-full object-contain bg-black/50"
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-rose-50 to-slate-100">
+              <HeartHandshake className="w-24 h-24 text-rose-300" />
+            </div>
+          )}
 
           {/* Navigation Controls */}
           {activity.images.length > 1 && (
@@ -83,9 +89,11 @@ const ActivityDetailsModal: React.FC<{
           )}
 
           {/* Image Counter */}
-          <div className="absolute top-4 left-4 bg-black/40 backdrop-blur-md text-white/90 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
-            Photo {currentImageIndex + 1} of {activity.images.length}
-          </div>
+          {activity.images.length > 0 && (
+            <div className="absolute top-4 left-4 bg-black/40 backdrop-blur-md text-white/90 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+              Photo {currentImageIndex + 1} of {activity.images.length}
+            </div>
+          )}
         </div>
 
         {/* Right: Content */}
@@ -106,7 +114,7 @@ const ActivityDetailsModal: React.FC<{
           </div>
 
           <div className="prose prose-slate prose-lg text-slate-600 font-light leading-relaxed mb-8 flex-grow">
-            <p>{activity.description}</p>
+            <p className="whitespace-pre-line">{activity.description}</p>
           </div>
 
           <div className="mt-auto pt-6 border-t border-slate-100">
@@ -150,11 +158,17 @@ const ActivityCard: React.FC<{ act: typeof ACTIVITIES[0]; onOpen: (act: typeof A
       onClick={() => onOpen(act)}
     >
       <div className="h-64 overflow-hidden relative bg-slate-100">
-        <img
-          src={act.images[currentImageIndex]}
-          alt={act.title}
-          className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
-        />
+        {act.images.length > 0 ? (
+          <img
+            src={act.images[currentImageIndex]}
+            alt={act.title}
+            className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-rose-50 to-slate-100">
+            <HeartHandshake className="w-16 h-16 text-rose-300" />
+          </div>
+        )}
 
         {/* Overlay Hint on Hover */}
         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-[2px]">
