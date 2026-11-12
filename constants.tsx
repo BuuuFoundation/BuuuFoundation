@@ -105,11 +105,15 @@ export const FAQ_DATA = [
       },
       {
         q: "Do donors receive tax exemption benefits?",
-        a: "We are currently in the process of obtaining Section 80G approval. Once approved, eligible donations will qualify for tax exemption as per the Income Tax Act. Tax benefits, where applicable, are provided by the government—not by the Foundation."
+        a: "Yes. Donations are eligible for tax deduction under our provisional approval (valid TY 2026-27 to 2028-29), subject to applicable law. The deduction is given by the Income Tax Department when you file your return, not by the Foundation. How much you can claim depends on your own tax situation, so please check with your tax advisor."
       },
       {
         q: "Will I receive a receipt for my donation?",
-        a: "Not at this time. Since our 80G tax-exemption approval is still pending, we are currently unable to issue formal donation receipts. If you would like your contribution included in our records for future tax-filing purposes, you're welcome to share your PAN details with us at contact@buuufoundation.org."
+        a: "Yes. We issue a receipt for donations received in the Foundation's bank account, whether made online or by bank transfer. Please note that donations sent to an individual's account, such as a volunteer's, cannot be receipted by us."
+      },
+      {
+        q: "What details do I need to share to claim the tax benefit, and why?",
+        a: "We need your full name as on your PAN card and your PAN. We report each eligible donation to the Income Tax Department on the tax portal along with the donor's PAN. This is how your donation gets linked to your tax return, so without these details we cannot report it and you may not be able to claim it. Please email your full name, PAN and payment details (date, amount and reference) to contact@buuufoundation.org. We use this information only for receipts and tax reporting."
       },
       {
         q: "Are donations refundable?",

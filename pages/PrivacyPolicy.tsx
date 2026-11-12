@@ -35,7 +35,7 @@ const PrivacyPolicy: React.FC = () => {
                                 <li>Volunteer or collaborate with us</li>
                             </ul>
                             <p className="mt-4">
-                                This information may include name, contact details, and other basic details required for coordination or record-keeping.
+                                This information may include name, contact details, and other basic details required for coordination or record-keeping. Donors who wish to claim a tax benefit are also asked for their PAN.
                             </p>
                         </section>
 
@@ -44,7 +44,7 @@ const PrivacyPolicy: React.FC = () => {
                             <p className="mb-4">Information collected is used solely to:</p>
                             <ul className="list-disc pl-6 space-y-2 marker:text-rose-500">
                                 <li>Communicate with donors, volunteers, and beneficiaries</li>
-                                <li>Process donations and issue receipts where applicable</li>
+                                <li>Process donations, issue receipts, and report eligible donations to the Income Tax Department</li>
                                 <li>Coordinate support and assistance</li>
                                 <li>Maintain internal records for transparency and accountability</li>
                             </ul>

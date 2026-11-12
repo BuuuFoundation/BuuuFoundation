@@ -47,10 +47,11 @@ const Transparency: React.FC = () => {
                                 <li>Support provided across different initiatives</li>
                             </ul>
                             <p className="mt-4">
-                                As our 80G tax-exemption approval is still pending, we are currently unable to issue
-                                formal donation receipts. Contributions are still tracked internally, and donors
-                                wishing to be included in our records for future tax-filing purposes may share their
-                                PAN details with us.
+                                We issue a receipt for donations received in the Foundation's bank account. Donations are
+                                eligible for tax deduction under our provisional approval (valid TY 2026-27 to 2028-29),
+                                subject to applicable law. To make a donation eligible, we report it along with the donor's
+                                full name and PAN on the Income Tax portal, which is why we ask donors for these details.
+                                They are used only for receipts and this reporting.
                             </p>
                         </section>
 

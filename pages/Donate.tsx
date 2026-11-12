@@ -123,11 +123,10 @@ const Donate: React.FC = () => {
         {/* Tax Exemption Note */}
         <div className="max-w-3xl mx-auto mb-16 text-center bg-amber-50 border border-amber-100 rounded-2xl p-6">
           <p className="text-sm text-slate-700 leading-relaxed">
-            <span className="font-semibold">Note:</span> For our accounting and compliance records, including
-            our foundation's yearly tax filing, we may request PAN details from contributors. Please note that
-            our 80G tax-exemption registration is still pending approval, so we're currently unable to confirm
-            or promise a tax deduction on your contribution. If you'd like to share your PAN for our records
-            regardless, reach out to <span className="font-medium">contact@buuufoundation.org</span>.
+            <span className="font-semibold">Note:</span> Donations are eligible for tax deduction under our
+            provisional approval (valid TY 2026-27 to 2028-29), subject to applicable law. To claim the benefit,
+            we will need a few details from you, such as your full name and PAN. Please reach out to{' '}
+            <span className="font-medium">contact@buuufoundation.org</span> and we will guide you.
           </p>
         </div>
 
